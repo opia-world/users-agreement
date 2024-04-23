@@ -1,0 +1,133 @@
+{
+  "periods": [
+    {
+      "name": "Закрытое тестирование MVP",
+      "number": "1",
+      "duration_in_monthes": 13,
+      "development_cost_per_month_usd": 100,
+      "operational_cost_per_month_usd": 50
+    },
+    {
+      "name": "Prod версия",
+      "number": "2",
+      "duration_in_monthes": 6,
+      "development_cost_per_month_usd": 400,
+      "operational_cost_per_month_usd": 100
+    }
+  ],
+  "dev_team": {
+    "1": {
+      "DL | CoreDev": {
+        "internal_activities_hours_per_month": 150,
+        "support_in_hours_per_month": 10,
+        "cost_per_hour": 0
+      },
+      "PK | DevOps": {
+        "internal_activities_hours_per_month": 150,
+        "support_in_hours_per_month": 10,
+        "cost_per_hour": 0
+      },
+      "YL | CoreDev": {
+        "internal_activities_hours_per_month": 140,
+        "support_in_hours_per_month": 20,
+        "cost_per_hour": 10
+      },
+      "DT | Arch | Fullstack": {
+        "internal_activities_hours_per_month": 80,
+        "support_in_hours_per_month": 0,
+        "cost_per_hour": 10
+      }
+    },
+    "2": {
+      "DL | CoreDev": {
+        "internal_activities_hours_per_month": 120,
+        "support_in_hours_per_month": 40,
+        "cost_per_hour": 0
+      },
+      "PK | DevOps": {
+        "internal_activities_hours_per_month": 80,
+        "support_in_hours_per_month": 80,
+        "cost_per_hour": 0
+      },
+      "YL | CoreDev": {
+        "internal_activities_hours_per_month": 140,
+        "support_in_hours_per_month": 20,
+        "cost_per_hour": 10
+      },
+      "DT | Arch | Fullstack": {
+        "internal_activities_hours_per_month": 80,
+        "support_in_hours_per_month": 0,
+        "cost_per_hour": 10
+      }
+    }
+  },
+  "product_team": {
+    "1": {
+      "SS | PdM": {
+        "internal_activities_hours_per_month": 150,
+        "support_in_hours_per_month": 5,
+        "sales_in_hours_per_month": 5,
+        "cost_per_hour": 7
+      }
+    },
+    "2": {
+      "SS | PdM": {
+        "internal_activities_hours_per_month": 40,
+        "support_in_hours_per_month": 20,
+        "sales_in_hours_per_month": 100,
+        "cost_per_hour": 7
+      }
+    }
+  },
+  "operation_team": {
+    "1": {
+      "Finance": {
+        "internal_activities_hours_per_month": 5,
+        "cost_per_hour": 5
+      },
+      "Low": {
+        "internal_activities_hours_per_month": 5,
+        "cost_per_hour": 5
+      }
+    },
+    "2": {
+      "Finance": {
+        "internal_activities_hours_per_month": 40,
+        "cost_per_hour": 5
+      },
+      "Low": {
+        "internal_activities_hours_per_month": 5,
+        "cost_per_hour": 5
+      },
+      "DPO": {
+        "internal_activities_hours_per_month": 40,
+        "cost_per_hour": 5
+      }
+    }
+  },
+  "opia_products": {
+    "1": {
+      "invoice_format": {
+        "pr_team_resources_in_hours": {
+          "SS | PdM": 10
+        },
+        "dev_team_resources_in_hours": {
+          "YL | CoreDev": 20
+        },
+        "business_unit_cost_per_month_usd": 25.0,
+        "avg_opia_percent_income_per_month_byn": 10.0,
+        "avg_units_number_per_month": 6
+      }
+    },
+    "2": {
+      "invoice_format": {
+        "dev_team_resources_in_hours": {
+          "YL | CoreDev": 5
+        },
+        "business_unit_cost_per_month_usd": 25.0,
+        "avg_opia_percent_income_per_month_byn": 15.0,
+        "avg_units_number_per_month": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "index": "Соглашение",
+    "contact": {
+    "title": "Mail ↗",
+    "type": "page",
+    "href": "mailto:x5@opia-world.com"
+  },
+  "contact_tg": {
+    "title": "Telegram ↗",
+    "type": "page",
+    "href": "tg://resolve?domain=OpiaWorld"
+  }
+}
