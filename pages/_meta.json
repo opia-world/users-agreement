@@ -1,5 +1,5 @@
 {
-  "users-agreement": {"title":"Пользовательское соглашение",
+  "index": {"title":"Пользовательское соглашение",
     "theme": {
       "toc": false,
       "sidebar": false,
