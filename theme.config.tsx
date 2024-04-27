@@ -40,12 +40,12 @@ const config: DocsThemeConfig = {
   footer: {
     text: "Opia World Documentation",
   },
-};
-
-export default {
   navigation: {
     prev: false,
     next: false
   }
-}
+};
+
+export default config;
+
 
