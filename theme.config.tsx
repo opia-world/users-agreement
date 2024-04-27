@@ -42,4 +42,10 @@ const config: DocsThemeConfig = {
   },
 };
 
-export default config;
+export default {
+  navigation: {
+    prev: false,
+    next: false
+  }
+}
+
