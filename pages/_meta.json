@@ -1,6 +1,20 @@
 {
-  "users-agreement": "Пользовательское соглашение",
-  "policy": "Политика обработки персональных данных",
+  "users-agreement": {"title":"Пользовательское соглашение",
+    "theme": {
+      "toc": false,
+      "sidebar": false,
+      "navbar": false,
+      "footer": false
+    }
+  },
+  "policy": {"title":"Политика обработки персональных данных",
+  "theme": {
+    "toc": false,
+    "sidebar": false,
+    "navbar": false,
+    "footer": false
+  }
+},
     "contact": {
     "title": "Mail ↗",
     "type": "page",
